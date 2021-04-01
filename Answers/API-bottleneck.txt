@@ -1,0 +1,2 @@
+I will use assynchronous calls to get the minimum amount of data needed at a certain instance
+I recommend using lazy-loading to keep interaction with the user

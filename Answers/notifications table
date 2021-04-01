@@ -1,0 +1,12 @@
+CREATE TABLE `notifications` (
+  `id` int AUTO_INCREMENT, //auto_increment is not null by default
+  `type` int(8) NOT NULL,
+  `notifiable_id` int UNSIGNED NOT NULL,
+  `notifiable_type` varchar(10), //data space is too small
+  `relation_id_1` int UNSIGNED DEFAULT NULL, //a pivot table is preferred
+  `relation_type_1` varchar(10), //data space is too small
+  `relation_id_2` int UNSIGNED DEFAULT NULL,
+  `relation_type_2` varchar(10), //data space is too small
+  `created_at` timestamp NOT NULL DEFAULT timestamp,
+  `updated_at` timestamp NOT NULL DEFAULT timestamp
+)
