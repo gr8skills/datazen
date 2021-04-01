@@ -8,18 +8,14 @@
           <div class="card card-stats">
             <div class="card-header card-header-warning card-header-icon">
               <div class="card-icon">
-                <i class="material-icons">content_copy</i>
+{{--                  <i class="fa fas-book"></i>--}}
+                <i class="material-icons small">content_copy</i>
               </div>
               <p class="card-category">Number of Staff</p>
               <h3 class="card-title">{{$data->number_of_staff}}
               </h3>
             </div>
-            <div class="card-footer">
-              <div class="stats">
-                <i class="material-icons text-success">Stable</i>
 
-              </div>
-            </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6">
@@ -31,11 +27,7 @@
               <p class="card-category">Staff on Leave</p>
               <h3 class="card-title">{{$data->staff_on_leave}}</h3>
             </div>
-            <div class="card-footer">
-              <div class="stats">
-                <i class="material-icons">date_range</i> Last 24 Hours
-              </div>
-            </div>
+
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6">
@@ -47,11 +39,7 @@
               <p class="card-category">Fixed Issues</p>
               <h3 class="card-title">{{$data->fixed_issues}}</h3>
             </div>
-            <div class="card-footer">
-              <div class="stats">
-                <i class="material-icons">local_offer</i> Tracked from Github
-              </div>
-            </div>
+
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6">
@@ -63,11 +51,7 @@
               <p class="card-category">Staff Present Today</p>
               <h3 class="card-title">{{$data->staff_present_today}}</h3>
             </div>
-            <div class="card-footer">
-              <div class="stats">
-                <i class="material-icons">update</i> Just Updated
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
